@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bacly : les sujets du BAC sur ton téléphone</title>
+<meta name="description" content="Bacly rassemble les sujets du BAC par matière, type et année. Lecteur plein écran, sujets hors ligne, chrono d'épreuve, sans compte. Sur Android, iPhone et ordinateur.">
+<meta name="theme-color" content="#F2F8F7">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Bacly">
+<meta property="og:title" content="Bacly : les sujets du BAC sur ton téléphone">
+<meta property="og:description" content="Les sujets du BAC classés par matière, type et année. Hors ligne, avec le chrono d'épreuve, sans compte.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.add("js")</script>
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/site.js" defer></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="i-telecharger" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-web" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></g></symbol>
+<symbol id="i-fleche" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-chevron" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-gauche" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-fermer" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-bulle" viewBox="0 0 24 24"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 8 19.6L3 21Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i-mobile" viewBox="0 0 24 24"><path d="M8 2.5h8A1.5 1.5 0 0 1 17.5 4v16a1.5 1.5 0 0 1-1.5 1.5H8A1.5 1.5 0 0 1 6.5 20V4A1.5 1.5 0 0 1 8 2.5zM11 18.5h2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-ordi" viewBox="0 0 24 24"><path d="M4.5 5.5h15v10h-15zM2 19h20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-livre" viewBox="0 0 24 24"><path d="M2 5.5c3-1.2 6.2-1 10 1v13.5c-3.8-2-7-2.2-10-1zM22 5.5c-3-1.2-6.2-1-10 1v13.5c3.8-2 7-2.2 10-1z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+<symbol id="i-horsligne" viewBox="0 0 24 24"><path d="M7 18a5 5 0 1 1 1-9.9A6 6 0 0 1 19.5 10 4 4 0 0 1 18 18M12 11v8M9 16l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-loupe" viewBox="0 0 24 24"><path d="M10.5 17.5a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM15.5 15.5l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+<symbol id="i-coche" viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-etoile" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+<symbol id="i-de" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round"><rect x="4" y="4" width="16" height="16" rx="3" stroke-width="1.8"/><path d="M8.5 8.5h.01M15.5 8.5h.01M12 12h.01M8.5 15.5h.01M15.5 15.5h.01" stroke-width="3"/></g></symbol>
+<symbol id="i-partage" viewBox="0 0 24 24"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7M12 3v12M7 8l5-5 5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-lune" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+<symbol id="i-chrono" viewBox="0 0 24 24"><path d="M12 21a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM12 9v4.5l3 1.8M10 2.5h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-neuf" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+<symbol id="i-lettre" viewBox="0 0 24 24"><path d="M3 5h18v14H3zM3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+<symbol id="i-alerte" viewBox="0 0 24 24"><path d="M12 3.5l9.5 16.5h-19zM12 10v4M12 17h.01" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-haut" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="m-annales" viewBox="0 0 24 24"><path d="M8 3h11v14M5 6h11v15H5zM8 11h5M8 14h5M8 17h3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="logo" viewBox="0 0 64 64"><rect width="64" height="64" rx="15" fill="#0D9488"/><path d="M23 15v34M23 15h11a8 8 0 0 1 0 16H23M23 31h13a9 9 0 0 1 0 18H23" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="49" cy="15" r="5.5" fill="#FF7A59"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-accueil" viewBox="0 0 24 24"><path d="M4 10.5 12 4l8 6.5V20h-5.5v-6h-5v6H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-dossier" viewBox="0 0 24 24"><path d="M3.5 6.5a1.5 1.5 0 0 1 1.5-1.5h4.5l2 2.5H19a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 19 19.5H5A1.5 1.5 0 0 1 3.5 18z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-reglage" viewBox="0 0 24 24"><path d="M4 7h9M17 7h3M4 17h3M11 17h9M15 5v4M9 15v4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-perso" viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4.5 20.5c1-3.8 4-5.5 7.5-5.5s6.5 1.7 7.5 5.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-vibre" viewBox="0 0 24 24"><path d="M9 4h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zM4.5 8v8M2 10v4M19.5 8v8M22 10v4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-ecran" viewBox="0 0 24 24"><path d="M8 2.5h8A1.5 1.5 0 0 1 17.5 4v16a1.5 1.5 0 0 1-1.5 1.5H8A1.5 1.5 0 0 1 6.5 20V4A1.5 1.5 0 0 1 8 2.5zM12 9v1M9.2 11.5l.7.7M14.8 11.5l-.7.7M12 15.5a2 2 0 1 0 0-.01" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-crayon" viewBox="0 0 24 24"><path d="M15.5 4.5l4 4L9 19l-5 1 1-5zM13.5 6.5l4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</defs>
+</svg>
+<a class="aller" href="#contenu">Aller au contenu</a>
+
+<header class="haut enveloppe">
+  <div class="barre">
+    <a class="logo" href="./" aria-label="Bacly, accueil"><svg aria-hidden="true"><use href="#logo"/></svg><span>Bacly</span></a>
+    <nav class="nav" aria-label="Menu principal">
+      <a href="#bibliotheque">Matières</a><a href="#sujet">Le sujet</a><a href="#chrono">Chrono</a><a href="#questions">Questions</a>
+    </nav>
+    <div class="barre-d">
+      <a class="lien-web" href="#installer" data-lien-app><svg class="ico"><use href="#i-web"/></svg>Version web</a>
+      <a class="btn btn-lagon" href="#installer"><svg class="ico"><use href="#i-telecharger"/></svg>Installer</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="menu-mobile" aria-label="Ouvrir le menu"><svg class="ico"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+  <nav class="menu-mobile" id="menu-mobile" aria-label="Menu mobile" hidden>
+    <a href="#bibliotheque">Matières<svg class="ico"><use href="#i-chevron"/></svg></a>
+    <a href="#sujet">La fiche du sujet<svg class="ico"><use href="#i-chevron"/></svg></a>
+    <a href="#chrono">Chrono d'épreuve<svg class="ico"><use href="#i-chevron"/></svg></a>
+    <a href="#questions">Questions<svg class="ico"><use href="#i-chevron"/></svg></a>
+    <a href="#installer">Installer Bacly<svg class="ico"><use href="#i-chevron"/></svg></a>
+  </nav>
+</header>
+
+<main id="contenu">
+
+<!-- ============ Haut de page ============ -->
+<section class="enveloppe">
+  <div class="accroche">
+    <div>
+      <p class="badge entree"><i></i>Sujets du BAC, Burkina Faso</p>
+      <h1 class="geant entree e2">Les sujets du BAC, toujours dans ta poche.</h1>
+      <p class="intro entree e3">Bacly range les sujets par matière, type et année. Lis-les en plein écran, garde-les hors ligne et entraîne-toi avec le chrono d'épreuve. Sans compte, sans inscription.</p>
+      <div class="appareils entree e4">
+        <div class="choix" role="group" aria-label="Ton appareil">
+          <button type="button" data-systeme="android" aria-pressed="true"><svg class="ico"><use href="#i-mobile"/></svg>Android</button>
+          <button type="button" data-systeme="iphone" aria-pressed="false"><svg class="ico"><use href="#i-mobile"/></svg>iPhone</button>
+          <button type="button" data-systeme="ordinateur" aria-pressed="false"><svg class="ico"><use href="#i-ordi"/></svg>Ordinateur</button>
+        </div>
+        <a class="btn btn-lagon" id="prendreBtn" href="#installer"><svg class="ico"><use href="#i-telecharger"/></svg><span>Télécharger l'APK</span></a>
+        <p class="aide" id="prendreAide" aria-live="polite">Ouvre le fichier téléchargé, puis <b>autorise l'installation</b> si le téléphone le demande.</p>
+      </div>
+    </div>
+
+    <div class="bureau" aria-hidden="true">
+      <div class="copie copie-1"></div>
+      <div class="copie copie-2"><b>BACCALAURÉAT</b><small>Épreuve de philosophie</small><p>Sujet 1<br>La conscience<br>fait-elle la dignité<br>de l'homme ?</p></div>
+      <div class="tel">
+        <div class="ecran">
+          <div class="app-haut"><small>Bacly</small><svg class="ico" style="color:#8BAEA9;width:15px;height:15px"><use href="#i-lune"/></svg></div>
+          <p class="app-salut">Que révises-tu ?</p>
+          <div class="app-reprendre"><small>Reprendre</small><b>Mathématiques, BAC 2021</b><div class="app-barre"><i></i></div></div>
+          <p class="app-titre">Nouveautés<small>Tout voir</small></p>
+          <div class="app-nouv">
+            <div><span class="pill-c">Nouveau</span><b>SVT, BAC 2023</b><small>Sujet</small></div>
+            <div><span class="pill-c">Nouveau</span><b>Philosophie</b><small>Annales</small></div>
+          </div>
+          <p class="app-titre">Matières</p>
+          <div class="app-mat">
+            <span><i style="background:#60A5FA"></i>Maths</span><span><i style="background:#C084FC"></i>PC</span><span><i style="background:#4ADE80"></i>SVT</span>
+            <span><i style="background:#FBBF24"></i>Français</span><span><i style="background:#F472B6"></i>Anglais</span><span><i style="background:#38BDF8"></i>Philo</span>
+          </div>
+          <div class="app-onglets">
+            <span class="on"><svg class="ico"><use href="#i-accueil"/></svg>Accueil</span>
+            <span><svg class="ico"><use href="#i-loupe"/></svg>Explorer</span>
+            <span><svg class="ico"><use href="#i-dossier"/></svg>Mes sujets</span>
+            <span><svg class="ico"><use href="#i-reglage"/></svg>Réglages</span>
+          </div>
+        </div>
+      </div>
+      <div class="postit">Maths 2021 : revoir l'exercice 3<small>Note perso</small></div>
+    </div>
+  </div>
+
+  <div class="regle monte">
+    <div><svg class="ico"><use href="#i-livre"/></svg><span><b>7 matières</b><small>De Maths à Histoire-Géo</small></span></div>
+    <div><svg class="ico"><use href="#m-annales"/></svg><span><b>Annales à part</b><small>Les recueils de dix pages et plus</small></span></div>
+    <div><svg class="ico"><use href="#i-horsligne"/></svg><span><b>Hors ligne</b><small>Un sujet téléchargé se lit sans Internet</small></span></div>
+    <div><svg class="ico"><use href="#i-perso"/></svg><span><b>Sans compte</b><small>Tout reste sur ton téléphone</small></span></div>
+  </div>
+</section>
+
+<!-- ============ Bibliothèque ============ -->
+<section class="section enveloppe" id="bibliotheque" aria-labelledby="bib-titre">
+  <div class="tete">
+    <h2 class="titre" id="bib-titre">Une matière, un classeur</h2>
+    <p class="intro">Chaque matière ouvre ses sujets, rangés par type et par année. Les recueils de dix pages et plus sont classés à part, dans les annales.</p>
+  </div>
+  <div class="etagere">
+    <a class="classeur" href="#installer" data-lien-app style="--c:#60A5FA" aria-label="Mathématiques : voir les sujets"><span class="etiq">Maths</span><span class="nom">Mathématiques</span><span class="anneau"></span></a>
+    <a class="classeur classeur-large" href="#installer" data-lien-app style="--c:#C084FC" aria-label="Physique-Chimie : voir les sujets"><span class="etiq">PC</span><span class="nom">Physique-Chimie</span><span class="anneau"></span></a>
+    <a class="classeur" href="#installer" data-lien-app style="--c:#4ADE80" aria-label="SVT : voir les sujets"><span class="etiq">SVT</span><span class="nom">SVT</span><span class="anneau"></span></a>
+    <a class="classeur" href="#installer" data-lien-app style="--c:#FBBF24" aria-label="Français : voir les sujets"><span class="etiq">Fr</span><span class="nom">Français</span><span class="anneau"></span></a>
+    <a class="classeur" href="#installer" data-lien-app style="--c:#F472B6" aria-label="Anglais : voir les sujets"><span class="etiq">Ang</span><span class="nom">Anglais</span><span class="anneau"></span></a>
+    <a class="classeur" href="#installer" data-lien-app style="--c:#38BDF8" aria-label="Philosophie : voir les sujets"><span class="etiq">Philo</span><span class="nom">Philosophie</span><span class="anneau"></span></a>
+    <a class="classeur" href="#installer" data-lien-app style="--c:#FB923C" aria-label="Histoire-Géo : voir les sujets"><span class="etiq">HG</span><span class="nom">Histoire-Géo</span><span class="anneau"></span></a>
+    <a class="classeur classeur-corail classeur-large" href="#installer" data-lien-app aria-label="Annales : les recueils de dix pages et plus"><span class="etiq">10 p. +</span><span class="nom">Annales</span><span class="anneau"></span></a>
+    <a class="classeur classeur-encre" href="#installer" data-lien-app aria-label="Nouveautés : les derniers sujets ajoutés"><span class="etiq">Neuf</span><span class="nom">Nouveautés</span><span class="anneau"></span></a>
+  </div>
+  <div class="legende">
+    <span>Dans l'app, l'onglet Explorer cherche aussi dans le texte des sujets.</span>
+    <a href="#installer">Installer Bacly<svg class="ico"><use href="#i-fleche"/></svg></a>
+  </div>
+</section>
+
+<!-- ============ La fiche du sujet ============ -->
+<section class="section enveloppe" id="sujet" aria-labelledby="sujet-titre" style="padding-top:0">
+  <div class="tete">
+    <h2 class="titre" id="sujet-titre">Tout se passe sur la fiche du sujet</h2>
+    <p class="intro">Ouvre un sujet&#160;: tu le lis, tu le gardes, tu le partages, et tu notes où tu en es.</p>
+  </div>
+  <div class="fiche-zone">
+    <div class="notes">
+      <div class="note monte" data-cible="lire"><span class="rond"><svg class="ico"><use href="#i-livre"/></svg></span><p><b>Lecteur plein écran</b><span>Le sujet en grand, avec le zoom à deux doigts.</span></p></div>
+      <div class="note monte" data-cible="actions"><span class="rond"><svg class="ico"><use href="#i-etoile"/></svg></span><p><b>Favori</b><span>Pour le retrouver tout de suite dans Mes sujets.</span></p></div>
+      <div class="note monte" data-cible="actions"><span class="rond"><svg class="ico"><use href="#i-horsligne"/></svg></span><p><b>Hors ligne</b><span>Télécharge-le une fois, il se lit sans connexion.</span></p></div>
+    </div>
+    <div class="tel" aria-hidden="true">
+      <div class="ecran ecran-clair">
+        <p class="f-retour"><svg class="ico"><use href="#i-gauche"/></svg>Mathématiques</p>
+        <p class="f-titre">Sujet du BAC 2021</p>
+        <p class="f-meta">Sujet, durée 4 h</p>
+        <div class="f-apercu cible" data-zone="lire"><b>BACCALAURÉAT</b><span class="f-lire"><svg class="ico"><use href="#i-livre"/></svg>Lire en plein écran</span></div>
+        <div class="f-actions cible" data-zone="actions">
+          <span><svg class="ico"><use href="#i-etoile"/></svg>Favori</span>
+          <span><svg class="ico"><use href="#i-horsligne"/></svg>Hors ligne</span>
+          <span><svg class="ico"><use href="#i-partage"/></svg>Partager</span>
+          <span><svg class="ico"><use href="#i-chrono"/></svg>Chrono</span>
+        </div>
+        <div class="f-etat cible" data-zone="etat"><span>À faire</span><span class="on">À revoir</span><span>Fait</span></div>
+        <p class="f-note cible" data-zone="note">Revoir l'exercice 3 sur les suites.</p>
+      </div>
+    </div>
+    <div class="notes">
+      <div class="note monte" data-cible="actions"><span class="rond"><svg class="ico"><use href="#i-partage"/></svg></span><p><b>Partager</b><span>À un camarade, par WhatsApp, avec le lien du sujet.</span></p></div>
+      <div class="note monte" data-cible="etat"><span class="rond"><svg class="ico"><use href="#i-coche"/></svg></span><p><b>À faire, à revoir, fait</b><span>Un état sur chaque sujet, pour savoir où tu en es.</span></p></div>
+      <div class="note monte" data-cible="note"><span class="rond"><svg class="ico"><use href="#i-crayon"/></svg></span><p><b>Note perso</b><span>Une ligne pour toi&#160;: ce qu'il te reste à revoir.</span></p></div>
+    </div>
+  </div>
+  <div class="plus monte">
+    <div><svg class="ico"><use href="#i-loupe"/></svg><b>Chercher dans le texte</b><span>Dans les titres et le texte des sujets, avec des filtres par matière, type et année.</span></div>
+    <div><svg class="ico"><use href="#i-de"/></svg><b>Sujet au hasard</b><span>Par matière, parmi ceux que tu n'as pas encore faits.</span></div>
+    <div><svg class="ico"><use href="#i-neuf"/></svg><b>Nouveautés</b><span>Une pastille « Nouveau » sur les sujets qui viennent d'arriver.</span></div>
+    <div><svg class="ico"><use href="#i-lune"/></svg><b>Clair ou sombre</b><span>L'app suit le réglage de ton téléphone, ou celui que tu choisis.</span></div>
+  </div>
+</section>
+
+<!-- ============ Chrono d'épreuve ============ -->
+<section class="nuit" id="chrono" aria-labelledby="chrono-titre">
+  <div class="enveloppe chrono-l" id="chronoZone">
+    <div class="horloge-zone">
+      <div class="horloge" aria-hidden="true">
+        <svg viewBox="0 0 200 200">
+          <path id="secteur" fill="rgba(255,122,89,.16)" d=""/>
+          <path id="arc" fill="none" stroke="#FF7A59" stroke-width="5" stroke-linecap="round" d=""/>
+          <g id="graduations"></g>
+          <text x="100" y="142" text-anchor="middle" font-family="Instrument Serif, Georgia, serif" font-size="17" fill="#0A1F22">Bacly</text>
+          <g id="aig-h"><path d="M100 104V58" stroke="#0A1F22" stroke-width="5" stroke-linecap="round"/></g>
+          <g id="aig-m"><path d="M100 106V34" stroke="#0A1F22" stroke-width="3.2" stroke-linecap="round"/></g>
+          <g id="aig-s" class="aiguille-s"><path d="M100 118V28" stroke="#E8603C" stroke-width="1.6" stroke-linecap="round"/><circle cx="100" cy="100" r="4.5" fill="#E8603C"/></g>
+          <circle cx="100" cy="100" r="2" fill="#fff"/>
+        </svg>
+      </div>
+      <p class="temps" aria-live="off"><span id="temps">4:00:00</span><small>restant</small></p>
+      <div class="duree-choix" role="group" aria-label="Choisir une durée d'épreuve">
+        <button type="button" data-duree="2" aria-pressed="false">2 h</button>
+        <button type="button" data-duree="3" aria-pressed="false">3 h</button>
+        <button type="button" data-duree="4" aria-pressed="true">4 h</button>
+      </div>
+    </div>
+    <div class="chrono-texte">
+      <h2 class="titre" id="chrono-titre">Le chrono d'épreuve, comme en salle d'examen</h2>
+      <p class="intro">La durée est lue sur le sujet quand elle y est écrite. Tu lances le chrono, tu poses le téléphone et tu composes. Ici, c'est une démonstration&#160;: l'épreuve commence à <span id="plage">8 h et finit à 12 h</span>.</p>
+      <ul class="points">
+        <li><svg class="ico"><use href="#i-vibre"/></svg>Le téléphone vibre à la fin de l'épreuve.</li>
+        <li><svg class="ico"><use href="#i-ecran"/></svg>L'écran reste allumé pendant toute l'épreuve.</li>
+        <li><svg class="ico"><use href="#i-chrono"/></svg>Le temps passe au rouge dans le dernier quart d'heure.</li>
+      </ul>
+      <div class="actions">
+        <a class="btn btn-blanc" href="#installer"><svg class="ico"><use href="#i-telecharger"/></svg>Installer Bacly</a>
+        <a class="btn btn-fil" href="#questions">Questions fréquentes</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Demandes ============ -->
+<section class="section enveloppe" aria-labelledby="dem-titre">
+  <div class="demandes">
+    <div>
+      <h2 class="titre" id="dem-titre">Il te manque un sujet ?</h2>
+      <p class="intro">Demande-le depuis l'app (Réglages, puis « Demander un sujet ») ou par WhatsApp. Ta demande arrive directement à l'équipe de Bacly, qui le cherche pour l'ajouter à la bibliothèque.</p>
+      <div class="actions">
+        <a class="btn btn-lagon" href="#ecrire" data-wa data-wa-msg="Bonjour Bacly, je cherche un sujet : "><svg class="ico"><use href="#i-bulle"/></svg>Demander sur WhatsApp</a>
+        <a class="btn btn-clair" href="#ecrire">Écrire un message</a>
+      </div>
+    </div>
+    <figure class="conversation" style="margin:0">
+      <div class="conv-haut"><svg aria-hidden="true"><use href="#logo"/></svg><span><b>Bacly</b><small>Demande de sujet</small></span></div>
+      <div class="conv-corps">
+        <p class="bulle bulle-moi">Bonjour, vous avez le sujet de SVT du BAC 2018 ?<small>18:42</small></p>
+        <p class="bulle bulle-eux">Bonjour ! On le cherche et on l'ajoute dès qu'on l'a. Il apparaîtra dans les Nouveautés.<small>18:47</small></p>
+        <p class="bulle bulle-moi">Merci !<small>18:48</small></p>
+        <figcaption class="conv-note">Conversation d'exemple</figcaption>
+      </div>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ Questions ============ -->
+<section class="enveloppe" id="questions" aria-labelledby="q-titre">
+  <div class="cahier monte">
+    <h2 class="titre" id="q-titre">Bon à savoir</h2>
+    <details open><summary>Faut-il créer un compte ?<svg class="ico"><use href="#i-plus"/></svg></summary><p>Non. Bacly s'ouvre directement. Tes favoris, tes notes et l'état de tes sujets restent sur ton téléphone.</p></details>
+    <details><summary>Comment installer Bacly sur Android ?<svg class="ico"><use href="#i-plus"/></svg></summary><p>Télécharge le fichier APK, ouvre-le, puis autorise l'installation si le téléphone le demande. Bacly apparaît ensuite avec tes autres applications.</p></details>
+    <details><summary>Et sur iPhone ?<svg class="ico"><use href="#i-plus"/></svg></summary><p>Ouvre la version web dans Safari, touche Partager, puis « Sur l'écran d'accueil ». Bacly s'ouvre ensuite comme une application.</p></details>
+    <details><summary>Peut-on lire sans Internet ?<svg class="ico"><use href="#i-plus"/></svg></summary><p>Oui, les sujets que tu as téléchargés. Sur iPhone, Safari peut les effacer si tu n'ouvres pas Bacly pendant plusieurs semaines&#160;: il suffit alors de les télécharger à nouveau.</p></details>
+    <details><summary>D'où viennent les sujets ?<svg class="ico"><use href="#i-plus"/></svg></summary><p>Ce sont des sujets d'examens passés, scannés puis classés par matière, type et année par l'équipe de Bacly. De nouveaux sujets sont ajoutés au fil du temps.</p></details>
+    <details><summary>Un sujet est illisible ou mal classé ?<svg class="ico"><use href="#i-plus"/></svg></summary><p>Signale-le depuis l'app&#160;: Réglages, puis « Signaler un problème ». Tu peux aussi nous écrire avec le formulaire plus bas.</p></details>
+    <details><summary>Bacly prend-il beaucoup de place ?<svg class="ico"><use href="#i-plus"/></svg></summary><p>L'app est légère. Seuls les sujets que tu télécharges prennent de la place, et les Réglages affichent l'espace utilisé.</p></details>
+    <details><summary>Ça marche sur ordinateur ?<svg class="ico"><use href="#i-plus"/></svg></summary><p>Oui, avec la version web, dans Chrome, Edge ou Firefox. Pratique pour lire un sujet sur un grand écran.</p></details>
+  </div>
+</section>
+
+<!-- ============ Installer ============ -->
+<section class="section enveloppe" id="installer" aria-labelledby="inst-titre">
+  <div class="tete">
+    <h2 class="titre" id="inst-titre">Installer Bacly</h2>
+    <p class="intro">Sur Android, iPhone ou ordinateur. Aucune inscription&#160;: Bacly s'ouvre directement.</p>
+  </div>
+  <div class="installer">
+    <article class="appareil" data-appareil="android">
+      <svg class="ico"><use href="#i-mobile"/></svg>
+      <h3>Android</h3><p>Le fichier APK à installer</p>
+      <ol><li>Télécharge le fichier APK.</li><li>Ouvre-le depuis tes téléchargements.</li><li>Autorise l'installation si le téléphone le demande.</li></ol>
+      <a class="btn btn-lagon" href="#" data-lien="apk" data-vide="Lien APK bientôt disponible"><svg class="ico"><use href="#i-telecharger"/></svg><span>Télécharger l'APK</span></a>
+    </article>
+    <article class="appareil" data-appareil="iphone">
+      <svg class="ico"><use href="#i-mobile"/></svg>
+      <h3>iPhone</h3><p>La version web, dans Safari</p>
+      <ol><li>Ouvre la version web dans Safari.</li><li>Touche Partager.</li><li>Choisis « Sur l'écran d'accueil ».</li></ol>
+      <a class="btn btn-encre" href="#" data-lien="web" data-vide="Version web bientôt en ligne"><svg class="ico"><use href="#i-web"/></svg><span>Ouvrir la version web</span></a>
+    </article>
+    <article class="appareil" data-appareil="ordinateur">
+      <svg class="ico"><use href="#i-ordi"/></svg>
+      <h3>Ordinateur</h3><p>La version web, sur grand écran</p>
+      <ol><li>Ouvre la version web dans Chrome, Edge ou Firefox.</li><li>Choisis une matière ou cherche un sujet.</li><li>Ajoute la page à tes favoris pour la retrouver.</li></ol>
+      <a class="btn btn-clair" href="#" data-lien="web" data-vide="Version web bientôt en ligne"><svg class="ico"><use href="#i-web"/></svg><span>Ouvrir la version web</span></a>
+    </article>
+  </div>
+</section>
+
+<!-- ============ Écris-nous ============ -->
+<section class="enveloppe" aria-labelledby="ecr-titre" style="padding-bottom:clamp(84px,10vw,136px)">
+  <div class="ecrire-l">
+    <div>
+      <h2 class="titre" id="ecr-titre">Écris-nous</h2>
+      <p class="intro">Un sujet à demander, un problème à signaler ou une simple question&#160;: ton message arrive directement à l'équipe de Bacly.</p>
+    </div>
+    <form class="ecrire" id="ecrire" novalidate aria-labelledby="ecr-titre">
+      <div class="rang">
+        <label>Ton prénom<input name="prenom" autocomplete="given-name" required></label>
+        <label>Ta demande<select name="type"><option value="sujet">Demander un sujet</option><option value="probleme">Signaler un problème</option><option value="autre">Autre question</option></select></label>
+      </div>
+      <label>Message<textarea name="message" placeholder="Par exemple : le sujet de mathématiques du BAC 2018" required></textarea></label>
+      <p class="ecrire-err" id="ecrireErr" role="alert" hidden></p>
+      <button class="btn btn-lagon" type="submit" id="ecrireBtn"><svg class="ico"><use href="#i-bulle"/></svg>Envoyer</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="pied nuit">
+  <div class="enveloppe">
+    <div class="pied-l">
+      <div>
+        <a class="logo" href="./" aria-label="Bacly, accueil"><svg aria-hidden="true"><use href="#logo"/></svg><span>Bacly</span></a>
+        <p>Les sujets du BAC classés par matière, type et année, à lire partout, même sans Internet. Sur Android, iPhone et ordinateur.</p>
+      </div>
+      <div><h2>Les matières</h2><ul><li><a href="#bibliotheque">Mathématiques</a></li><li><a href="#bibliotheque">Physique-Chimie</a></li><li><a href="#bibliotheque">SVT et Français</a></li><li><a href="#bibliotheque">Anglais et Philosophie</a></li><li><a href="#bibliotheque">Histoire-Géo</a></li><li><a href="#bibliotheque">Annales</a></li></ul></div>
+      <div><h2>L'application</h2><ul><li><a href="#sujet">La fiche du sujet</a></li><li><a href="#chrono">Chrono d'épreuve</a></li><li><a href="#installer">Installer Bacly</a></li><li><a href="#questions">Questions fréquentes</a></li></ul></div>
+      <div><h2>Nous écrire</h2><ul>
+        <li data-ligne="whatsapp"><svg class="ico"><use href="#i-bulle"/></svg><a href="#ecrire" data-wa>WhatsApp</a></li>
+        <li data-ligne="email"><svg class="ico"><use href="#i-lettre"/></svg><a href="#ecrire" data-email></a></li>
+        <li><svg class="ico"><use href="#i-alerte"/></svg><a href="#ecrire">Signaler un problème</a></li>
+      </ul></div>
+    </div>
+    <div class="pied-bas"><span>© <span data-annee>2026</span> Bacly. Les sujets du BAC, partout.</span><a href="#contenu"><svg class="ico"><use href="#i-haut"/></svg>Haut de page</a></div>
+  </div>
+</footer>
+
+<div class="mobile-bas">
+  <a class="btn btn-lagon" href="#installer"><svg class="ico"><use href="#i-telecharger"/></svg>Installer Bacly</a>
+  <a class="mobile-rond" href="#ecrire" id="barreRond" aria-label="Nous écrire"><svg class="ico"><use href="#i-bulle"/></svg></a>
+</div>
+</body>
+</html>
